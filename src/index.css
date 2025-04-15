@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset scroll position for fixed header */
+section[id] {
+  scroll-margin-top: 64px; /* Adjust this value based on your header height */
+}
+
+/* Ensure body takes full height for footer */
+body, #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
