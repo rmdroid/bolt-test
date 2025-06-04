@@ -8,12 +8,14 @@
     "start": "vite --port 4333",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 4333"
+    "preview": "vite preview --port 4333",
+    "snake": "node snake/server.js"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
